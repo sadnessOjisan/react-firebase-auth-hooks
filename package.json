@@ -1,8 +1,8 @@
 {
-  "name": "react-firebase-hooks",
-  "version": "3.0.0-alpha.3",
+  "name": "react-firebase-auth-hooks",
+  "version": "0.0.1-alpha.1",
   "description": "React Hooks for Firebase",
-  "author": "CS Frequency Limited (https://csfrequency.com)",
+  "author": "sadnessOjisan",
   "license": "Apache-2.0",
   "homepage": "https://github.com/csfrequency/react-firebase-hooks",
   "bugs": "https://github.com/csfrequency/react-firebase-hooks/issues",
@@ -47,12 +47,12 @@
     "prettier": "prettier --check .",
     "start": "rollup -c -w"
   },
-  "main": "dist/index.cjs.js",
-  "module": "dist/index.esm.js",
-  "dependencies": {},
+  "main": "dist/react-firebase-hooks-auth.js",
+  "dependencies": {
+    "firebase": "^8.2.9"
+  },
   "devDependencies": {
     "@types/react": "^17.0.0",
-    "firebase": "^8.0.0",
     "path": "^0.12.7",
     "prettier": "2.2.1",
     "react": "^17.0.1",
@@ -68,5 +68,5 @@
   "peerDependencies": {
     "react": ">= 16.8.0"
   },
-  "typings": "index.d.ts"
+  "typings": "dist/auth/index.d.ts"
 }
