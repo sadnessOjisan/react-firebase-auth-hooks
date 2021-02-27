@@ -1,11 +1,11 @@
 {
   "name": "react-firebase-auth-hooks",
-  "version": "0.0.1-alpha.1",
+  "version": "1.0.0",
   "description": "React Hooks for Firebase",
   "author": "sadnessOjisan",
   "license": "Apache-2.0",
-  "homepage": "https://github.com/csfrequency/react-firebase-hooks",
-  "bugs": "https://github.com/csfrequency/react-firebase-hooks/issues",
+  "homepage": "https://github.com/sadnessOjisan/react-firebase-auth-hooks",
+  "bugs": "https://github.com/sadnessOjisan/react-firebase-auth-hooks/issues",
   "keywords": [
     "react",
     "hooks",
@@ -17,27 +17,12 @@
     "auth/dist/util",
     "auth/dist/*.js.flow",
     "auth/package.json",
-    "database/dist/*.js",
-    "database/dist/database",
-    "database/dist/util",
-    "database/dist/*.js.flow",
-    "database/package.json",
     "dist/*.js",
-    "dist/*.js.map",
-    "firestore/dist/*.js",
-    "firestore/dist/firestore",
-    "firestore/dist/util",
-    "firestore/dist/*.js.flow",
-    "firestore/package.json",
-    "storage/dist/*.js",
-    "storage/dist/storage",
-    "storage/dist/util",
-    "storage/dist/*.js.flow",
-    "storage/package.json"
+    "dist/*.js.map"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/csfrequency/react-firebase-hooks.git"
+    "url": "https://github.com/sadnessOjisan/react-firebase-auth-hooks.git"
   },
   "scripts": {
     "build": "npm run clean && rollup -c",
